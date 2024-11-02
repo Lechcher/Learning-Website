@@ -1,0 +1,82 @@
+/* ==== Common ==== */
+* {
+  /* Box Sizing */
+  box-sizing: border-box;
+
+  /* Fonts */
+  --title-font: "Sen", san-serif;
+  --text-font: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: var(--text-font);
+}
+
+/* Link anchor */
+a {
+  text-decoration: none;
+}
+
+/* Logo */
+.logo {
+  color: #171100;
+  font-family: Sen;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.4rem; /* 141.667% */
+}
+
+.logo span {
+  color: #ffb900;
+  font-family: var(--title-font);
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.4rem;
+}
+
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+/* ==== Header ==== */
+.header .body {
+  display: flex;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav a {
+  padding: 8px 21px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+}
+
+.nav li.active a,
+.nav a:hover {
+  color: #171100;
+  font-style: normal;
+  text-shadow: 2px 0 0 / currentColor;
+}
+
+.nav li:first-child a::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 2px;
+  flex-shrink: 0;
+}
