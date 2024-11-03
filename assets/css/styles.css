@@ -20,25 +20,21 @@ body {
 /* button */
 .btn {
   display: inline-block;
-  padding: 0 px;
+  min-width: 118px;
+  padding: 0 16px;
   border-radius: 24.5px;
+  line-height: 50px;
   background: #171100;
-  flex-shrink: 0;
-  color: #FFF;
+  color: #fff;
   text-align: center;
-  font-family: Poppins;
-  font-size: 1.6rem;
-  font-style: normal;
+  font-family: var(--text-font);
   font-weight: 600;
-  line-height: 2.8rem;
-  /* 175% */
 }
 
 /* Link anchor */
 a {
   text-decoration: none;
 }
-
 
 /* Logo */
 .logo a {
@@ -67,8 +63,19 @@ a {
 }
 
 /* ==== Header ==== */
+.header {
+  background-color: #fffcf4;
+}
+
+.header .fixed {
+  position: sticky;
+  top: -28px;
+}
+
 .header .body {
   display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
 }
 
 .nav {
@@ -103,4 +110,12 @@ a {
   background: #171100;
   left: 21px;
   bottom: 7px;
+}
+
+.header .sign-up-btn {
+  min-width: 144px;
+}
+
+.header .btn {
+  margin-left: 49px;
 }

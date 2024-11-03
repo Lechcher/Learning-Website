@@ -1,55 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Website!</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learning Website!</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
 
-  <!-- Reset CSS -->
-  <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
-  <!-- Styles CSS -->
-  <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+  </head>
 
-  <!-- Fonts CSS -->
-  <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
-</head>
+  <body>
+    <main>
+      <!-- ==== Header ==== -->
+      <header class="header fixed">
+        <div class="main-content">
+          <div class="body">
+            <!-- Logo -->
+            <div class="logo">
+              <a href="#!">Lesson<span>.</span></a>
+            </div>
 
-<body>
-  <main>
-    <header class="header fixed">
-      <div class="main-content">
-        <div class="body">
-          <!-- Logo -->
-          <div class="logo">
-            <a href="#!">Lesson<span>.</span></a>
+            <!-- Navbar -->
+            <nav class="nav">
+              <ul>
+                <li class="active">
+                  <a href="#!">Home</a>
+                </li>
+                <li>
+                  <a href="#!">Courses</a>
+                </li>
+                <li>
+                  <a href="#!">Pricing</a>
+                </li>
+                <li>
+                  <a href="#!">Reviews</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- Action button -->
+            <div class="action">
+              <a href="#!" class="btn sign-up-btn">Sign Up</a>
+            </div>
           </div>
+        </div>
+      </header>
 
-          <!-- Navbar -->
-          <nav class="nav">
-            <ul>
-              <li class="active">
-                <a href="#!">Home</a>
-              </li>
-              <li>
-                <a href="#!">Courses</a>
-              </li>
-              <li>
-                <a href="#!">Pricing</a>
-              </li>
-              <li>
-                <a href="#!">Reviews</a>
-              </li>
-            </ul>
-          </nav>
+      <!-- ==== Hero ==== -->
+      <div class="hero">
+        <div class="main-content">
+          <div class="body">
+            <!-- Media Hero -->
+            <div class="media-block">
+              <img
+                src="./assets/images/hero-image.png"
+                alt="Learn without limits and spread knowledge."
+                class="hero-image"
+              />
 
-          <!-- Action button -->
-          <a href="#!" class="btn">Sign Up</a>
+              <div class="hero-summary">
+                <div class="item">
+                  <div class="icon">
+                    <img src="./assets/images/ux-ui.svg" alt="ux-ui">
+                  </div>
+                  <div class="info">
+                    <p class="label"></p>
+                    <div class="title"></div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon">
+                    <img src="./assets/images/dev.svg" alt="develop">
+                  </div>
+                  <div class="info">
+                    <p class="label"></p>
+                    <div class="title"></div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="icon">
+                    <img src="./assets/images/mking.svg" alt="marketing">
+                  </div>
+                  <div class="info">
+                    <p class="label"></p>
+                    <div class="title"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Content Hero -->
+            <div class="content-block"></div>
+          </div>
         </div>
       </div>
-    </header>
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>
