@@ -122,73 +122,79 @@ a {
 
 /* ==== Hero ==== */
 .hero {
-  margin-top: 17px;
+  padding: 56px 0 65px;
+  background: #fffcf4;
 }
 
 .hero .body {
   display: flex;
-  flex-flow: wrap row;
-  flex-shrink: 0;
+}
+
+/* Media Hero */
+.hero .media-block {
+  position: relative;
+  width: 48%;
 }
 
 .hero .media-block .hero-image {
-  position: relative;
+  display: block;
   width: 470px;
   height: 685px;
-  flex-shrink: 0;
-  border-radius: 20px;
-  flex-shrink: 0;
   object-fit: cover;
+  border-radius: 20px;
 }
 
-.hero .media-block .hero-summary {
-  display: flex;
+.hero-summary {
   position: absolute;
-  flex-flow: wrap column;
+  right: -110px;
+  bottom: 48px;
   width: 270px;
-  height: 244px;
-  flex-shrink: 0;
+  padding: 24px;
+  background: #ffffff;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
-  background: #FFF;
-  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
-  top: 540px;
-  left: 386px;
 }
 
-.hero .media-block .hero-summary .item {
+.hero-summary .item {
   display: flex;
-  flex-flow: wrap row;
-  gap: 16px;
-  margin-bottom: 22px;
-  justify-content: space-around;
-}
-
-.hero .media-block .hero-summary .item:first-child {
-  margin-top: 28px;
-}
-
-.hero .media-block .hero-summary .item:last-child {
-  margin-bottom: 6px;
-}
-
-.hero .media-block .hero-summary .item .icon {
-  display: flex;
-  justify-content: center;
   align-items: center;
+}
+
+.hero-summary .item+.item {
+  margin-top: 22px;
+}
+
+.hero-summary .icon {
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff9e8;
 }
 
-.hero .media-block .hero-summary .item .icon:nth-child(1) {
-  background-color: #FFF9E8;
+.hero-summary .item:nth-of-type(2) .icon {
+  background: #fcefff;
 }
 
-.hero .media-block .hero-summary .item .icon:nth-child(2) {
-  background-color: #FCEFFF;
+.hero-summary .item:nth-of-type(3) .icon {
+  background: #ebeaff;
 }
 
-.hero .media-block .hero-summary .item .icon:nth-child(3) {
-  background-color: #EBEAFF;
+.hero-summary .info {
+  margin-left: 16px;
+}
+
+.hero-summary .label {
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #5f5b53;
+}
+
+.hero-summary .title {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  color: #171100;
 }
