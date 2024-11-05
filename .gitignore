@@ -1,2 +1,3 @@
-# Ignore all files in .idx directory
+# Ignore all files in .idx and .vscode directory
 .idx/
+.vscode/
