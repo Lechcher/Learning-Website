@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning Website!</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Learning Website!</title>
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
 
-  <!-- Reset CSS -->
-  <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
-  <!-- Styles CSS -->
-  <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Fonts CSS -->
+    <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+  </head>
 
-  <!-- Fonts CSS -->
-  <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
-</head>
+  <body>
+    <main>
+      <!-- ==== Header ==== -->
+      <header class="header">
+        <div class="main-content">
+          <div class="body fixed">
+            <!-- Logo -->
+            <div class="logo">
+              <a href="#!">Lesson<span>.</span></a>
+            </div>
 
-<body>
-  <main>
-    <!-- ==== Header ==== -->
-    <header class="header">
-      <div class="main-content">
-        <div class="body fixed">
-          <!-- Logo -->
-          <div class="logo">
-            <a href="#!">Lesson<span>.</span></a>
-          </div>
+            <!-- Navbar -->
+            <nav class="nav">
+              <ul>
+                <li class="active">
+                  <a href="#!">Home</a>
+                </li>
+                <li>
+                  <a href="#!">Courses</a>
+                </li>
+                <li>
+                  <a href="#!">Pricing</a>
+                </li>
+                <li>
+                  <a href="#!">Reviews</a>
+                </li>
+              </ul>
+            </nav>
 
-          <!-- Navbar -->
-          <nav class="nav">
-            <ul>
-              <li class="active">
-                <a href="#!">Home</a>
-              </li>
-              <li>
-                <a href="#!">Courses</a>
-              </li>
-              <li>
-                <a href="#!">Pricing</a>
-              </li>
-              <li>
-                <a href="#!">Reviews</a>
-              </li>
-            </ul>
-          </nav>
-
-          <!-- Action button -->
-          <div class="action">
-            <a href="#!" class="btn sign-up-btn">Sign Up</a>
+            <!-- Action button -->
+            <div class="action">
+              <a href="#!" class="btn sign-up-btn">Sign Up</a>
+            </div>
           </div>
         </div>
-      </div>
+      </header>
 
       <!-- ==== Hero ==== -->
       <div class="hero">
@@ -58,13 +58,16 @@
           <div class="body">
             <!-- Media Hero -->
             <div class="media-block">
-              <img src="./assets/images/hero-image.png" alt="Learn without limits and spread knowledge."
-                class="hero-image">
+              <img
+                src="./assets/images/hero-image.png"
+                alt="Learn without limits and spread knowledge."
+                class="hero-image"
+              />
 
               <div class="hero-summary">
                 <div class="item">
                   <div class="icon">
-                    <img src="./assets/icons/ux-ui.svg" alt="ux-ui">
+                    <img src="./assets/icons/ux-ui.svg" alt="ux-ui" />
                   </div>
                   <div class="info">
                     <p class="label">20 Courses</p>
@@ -73,7 +76,7 @@
                 </div>
                 <div class="item">
                   <div class="icon">
-                    <img src="./assets/icons/dev.svg" alt="develop">
+                    <img src="./assets/icons/dev.svg" alt="develop" />
                   </div>
                   <div class="info">
                     <p class="label">20 Courses</p>
@@ -82,7 +85,7 @@
                 </div>
                 <div class="item">
                   <div class="icon">
-                    <img src="./assets/icons/mking.svg" alt="marketing">
+                    <img src="./assets/icons/mking.svg" alt="marketing" />
                   </div>
                   <div class="info">
                     <p class="label">30 Courses</p>
@@ -95,15 +98,25 @@
             <!-- Content Hero -->
             <div class="content_hero">
               <div class="content-block">
-                <h1 class="heading">Learn without limits and spread knowledge.</h1>
-                <p class="desc">Build new skills for that “this is my year” feeling with courses, certificates, and
-                  degrees
-                  from world-class universities and companies.</p>
+                <h1 class="heading">
+                  Learn without limits and spread knowledge.
+                </h1>
+                <p class="desc">
+                  Build new skills for that “this is my year” feeling with
+                  courses, certificates, and degrees from world-class
+                  universities and companies.
+                </p>
               </div>
               <div class="cta-group">
-                <a href="#!" class="btn">See Courses</a>
+                <a href="#!" class="btn cta-btn">See Courses</a>
                 <button class="watch-video" type="button">
-                  <img src="./assets/icons/play-icon.svg" alt="play-icon" class="icon">
+                  <div class="play-group">
+                    <img
+                      src="./assets/icons/play.svg"
+                      alt="play-icon"
+                      class="play-icon"
+                    />
+                  </div>
                   <span>Watch Video</span>
                 </button>
               </div>
@@ -118,8 +131,6 @@
           </div>
         </div>
       </div>
-    </header>
-  </main>
-</body>
-
+    </main>
+  </body>
 </html>

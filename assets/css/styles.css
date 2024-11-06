@@ -160,7 +160,7 @@ a {
   align-items: center;
 }
 
-.hero-summary .item+.item {
+.hero-summary .item + .item {
   margin-top: 22px;
 }
 
@@ -197,4 +197,105 @@ a {
   font-size: 1.8rem;
   line-height: 1.67;
   color: #171100;
+}
+
+/* Content Hero */
+.content_hero {
+  margin-left: 230px;
+}
+
+.content_hero .heading {
+  margin-bottom: 22px;
+  color: #171100;
+  font-family: Sen;
+  font-size: 5.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 6.8rem; /* 117.241% */
+  letter-spacing: -0.116rem;
+}
+
+.content_hero .desc {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem; /* 166.667% */
+}
+
+.content_hero .cta-group {
+  display: flex;
+  padding-top: 38px;
+  gap: 28px;
+}
+
+.content_hero .cta-btn {
+  padding: 17px 33px;
+  border-radius: 32px;
+  background: #ffb900;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem; /* 166.667% */
+}
+
+.content_hero .watch-video {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3rem; /* 166.667% */
+}
+
+.content_hero .watch-video .play-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+}
+
+.content_hero .data-block {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 48px;
+  gap: 8px;
+}
+
+.content_hero .data {
+  display: flex;
+  flex-flow: wrap row;
+  gap: 28px;
+  color: #171100;
+  font-family: Sen;
+  font-size: 4.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.4rem; /* 122.727% */
+}
+
+.content_hero .data span {
+  color: #5f5b53;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3rem;
 }
