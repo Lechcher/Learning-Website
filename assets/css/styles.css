@@ -328,6 +328,7 @@ a {
   height: 40px;
   border: 1px solid #ffb900;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .popular .popular-top .control-btn:last-child {
@@ -353,5 +354,4 @@ a {
   font-weight: 400;
   line-height: 3rem; /* 166.667% */
 }
-
 
